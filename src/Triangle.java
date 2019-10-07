@@ -9,4 +9,14 @@ public class Triangle {
         side3=c;
     }
 
+
+    double calculateArea() {
+        double p;
+
+        {
+            p = (side1 + side2 + side3) / 2;
+        }
+        double trnglArea = Math.sqrt(p * (p - side3) * (p - side2) * (p - side1));
+        return trnglArea;
+    }
 }

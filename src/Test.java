@@ -6,15 +6,24 @@ public class Test {
         Rectangle smartRectangle = new Rectangle(6.9, 9.6);
         ShapeCalc shapeCalc = new ShapeCalc();
 
-       double sArea = shapeCalc.squareArea(happySquare);
-       double tPer = shapeCalc.trianglePerimeter(luckyTriangle);
-       double cArea = shapeCalc.circleArea(prettyCircle);
-       double rPer = shapeCalc.rectPerimeter(smartRectangle);
+      // double sArea = shapeCalc.squareArea(happySquare);
+       //double tPer = shapeCalc.trianglePerimeter(luckyTriangle);
+       //double cArea = shapeCalc.circleArea(prettyCircle);
+       //double rPer = shapeCalc.rectPerimeter(smartRectangle);
 
-        System.out.println("Square area: "+sArea);
-        System.out.println("Circle area: "+cArea);
-        System.out.println("Rectangle perimeter: "+rPer);
-        System.out.println("Triangle perimeter: "+tPer);
+        double rectArea = smartRectangle.calculateArea();
+        System.out.println(rectArea);
+        double sqrArea = happySquare.calculateArea();
+        System.out.println(sqrArea);
+        double trnglArea = luckyTriangle.calculateArea();
+        System.out.println(trnglArea);
+        double crclArea = prettyCircle.calculateArea();
+        System.out.println(crclArea);
+
+       // System.out.println("Square area: "+sArea);
+       // System.out.println("Circle area: "+cArea);
+       // System.out.println("Rectangle perimeter: "+rPer);
+        //System.out.println("Triangle perimeter: "+tPer);
 
     }
 }

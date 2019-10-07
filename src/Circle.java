@@ -5,4 +5,9 @@ public class Circle {
         radius = r;
     }
 
+    double calculateArea() {
+        double crclArea = radius*radius*3.14;
+        return crclArea;
+    }
+
 }
