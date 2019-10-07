@@ -15,8 +15,8 @@ public class Test {
         System.out.println(rectArea);
         double sqrArea = happySquare.calculateArea();
         System.out.println(sqrArea);
-        double trnglArea = luckyTriangle.calculateArea();
-        System.out.println(trnglArea);
+        double trnglPerimeter = luckyTriangle.calculateArea();
+        System.out.println(trnglPerimeter);
         double crclArea = prettyCircle.calculateArea();
         System.out.println(crclArea);
 
