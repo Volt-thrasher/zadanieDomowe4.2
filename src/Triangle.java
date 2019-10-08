@@ -10,8 +10,7 @@ public class Triangle {
     }
 
 
-    double calculateArea() {
-
+    double calculatePerimeter() {
         double trnglPerimeter = side1 + side2 + side3;
         return trnglPerimeter;
     }
